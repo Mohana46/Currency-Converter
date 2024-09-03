@@ -84,7 +84,7 @@ export const CurrencyConverter = () => {
           <label htmlFor="fromCurrency">From Currency</label>
           <select id="fromCurrency" value={fromCurrency} onChange={handleFromCurrency}>
             <option value="">-- Select Currency --</option>
-            {currencyOptions.map(currency => (
+            {currencyOptions.slice(0, 10).map(currency => (
               <option key={currency} value={currency}>{getCurrencyName(currency)}</option>
             ))}
           </select>
@@ -93,7 +93,7 @@ export const CurrencyConverter = () => {
           <label htmlFor="toCurrency">To Currency</label>
           <select id="toCurrency" value={toCurrency} onChange={handleToCurrency}>
             <option value="">-- Select Currency --</option>
-            {currencyOptions.map(currency => (
+            {currencyOptions.slice(0, 10).map(currency => (
               <option key={currency} value={currency}>{getCurrencyName(currency)}</option>
             ))}
           </select>
