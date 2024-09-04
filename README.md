@@ -41,12 +41,12 @@ This is a React-based Currency Converter application that allows users to conver
 
 ## Technologies Used
 
-React
-HTML
-CSS
-Axios for HTTP requests
-Exchange Rate API (https://api.exchangerate-api.com)
-Open Exchange Rates API (https://openexchangerates.org)
+1. React
+2. HTML
+3. CSS
+4. Axios for HTTP requests
+5.Exchange Rate API (https://api.exchangerate-api.com)
+6.Open Exchange Rates API (https://openexchangerates.org)
 
 
 
