@@ -1,4 +1,4 @@
-# QR Code Generator
+# Currency Converter
 
 This is a React-based Currency Converter application that allows users to convert an amount from one currency to another. The application fetches live exchange rates and displays the converted amount.
 
