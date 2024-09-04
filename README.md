@@ -18,7 +18,7 @@ This is a React-based Currency Converter application that allows users to conver
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Mohana46/qrcode-generator.git
+   git clone https://github.com/Mohana46/Currency-Converter.git
    cd qrcode-generator
    
 2. **Install dependencies:**   
